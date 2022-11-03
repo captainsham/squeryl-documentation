@@ -27,7 +27,7 @@ module.exports = function(eleventyConfig) {
       widths: [400, 600, 800, 1000, 1200, 1400, 1600, 1900],
       formats: ['webp', 'jpeg', 'png'],
       urlPath: "/content/images/",
-      outputDir: "./_site/content/images/"
+      outputDir: "./docs/content/images/"
     });
 
     let lowsrc = metadata.jpeg[0];
@@ -99,7 +99,7 @@ module.exports = function(eleventyConfig) {
 
    // Creates custom collection "pages"
    eleventyConfig.addCollection("pages", function(collection) {
-    return collection.getFilteredByGlob("pages/*.md");
+    return collection.getFilteredByGlob("pages/*.md"&&"pages/*/**.md");
    });
 
    // Creates custom collection "posts"
@@ -147,6 +147,7 @@ module.exports = function(eleventyConfig) {
 
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
+
 
   // Minify CSS
   eleventyConfig.addFilter("cssmin", function(code) {
@@ -237,19 +238,33 @@ module.exports = function(eleventyConfig) {
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
+    // build content/pages in docs/pages on build
+   /*     markdownTemplateEngine: "liquid",
+    htmlTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
+    dir: {
+        input: "content",
+        output: "/docs/content",
+        includes: "_includes",
+        layouts: "_layouts",
+        data: "_data"
+
+    },
+*/
+
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: "/",
+    // pathPrefix: "/",
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    dir: {
+        dir: {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "docs"
     }
   };
 };

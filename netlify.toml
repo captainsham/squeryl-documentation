@@ -1,5 +1,5 @@
 [build]
-  publish = "_site"
+  publish = "docs"
   command = "npm run build"
   #command = "npm run build && set -e && find ./_site -type f -name '*.html' -exec staticrypt -f password_template.html {} $PASSWORD -o {} \\;"
   functions = "functions"
