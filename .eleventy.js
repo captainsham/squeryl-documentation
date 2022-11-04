@@ -61,6 +61,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./_tmp/style.css");
   eleventyConfig.addPassthroughCopy({ "./_tmp/style.css": "./style.css" });
 
+  eleventyConfig.addWatchTarget("/styles/tailwind.css");
+    eleventyConfig.addPassthroughCopy({ "/styles/tailwind.css": "./tailwind.css" });
+
+    eleventyConfig.addWatchTarget("/styles/tailwind.config.js");
+    eleventyConfig.addPassthroughCopy({ "/styles/tailwind.config.js": "./tailwind.config.js" });
+
   // Alpine.js pass through
   eleventyConfig.addPassthroughCopy({
     "./node_modules/alpinejs/dist/alpine.js": "./js/alpine.js",
