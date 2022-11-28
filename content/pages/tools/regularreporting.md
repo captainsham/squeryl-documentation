@@ -4,6 +4,7 @@ date: Last Modified
 permalink: tools/regulareporting/index.html
 eleventyNavigation:
   key: regulareporting 
+  parent: tools
   order: 2
   title: Regular Reporting
 ---

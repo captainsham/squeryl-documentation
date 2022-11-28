@@ -4,6 +4,7 @@ date: Last Modified
 permalink: tools/impactreporting/index.html
 eleventyNavigation:
   key: impactreporting
+  parent: tools
   order: 5
   title: Impact Reporting
 ---

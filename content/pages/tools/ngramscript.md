@@ -4,6 +4,7 @@ date: Last Modified
 permalink: tools/ngrams/index.html
 eleventyNavigation:
   key: ngrams
+  parent: tools
   order: 3
   title: Ngrams
 ---

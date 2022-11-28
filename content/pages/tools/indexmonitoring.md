@@ -4,6 +4,7 @@ date: Last Modified
 permalink: tools/indexmonitoring/index.html
 eleventyNavigation:
   key: indexmonitoring
+  parent: tools
   order: 4
   title: Index Monitoring
 ---

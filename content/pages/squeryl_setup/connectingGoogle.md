@@ -1,3 +1,4 @@
+---
 title: Connecting Google
 date: Last Modified 
 permalink: squeryl_setup/setup/connectingGoogle.html

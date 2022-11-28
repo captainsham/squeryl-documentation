@@ -1,3 +1,4 @@
+---
 title: Adding New Users
 date: Last Modified 
 permalink: squeryl_setup/setup/addingUsers.html

@@ -20,8 +20,11 @@ Squeryl can do a lot of things! Squeryl is a tool that interacts and interfaces 
 
 Current tools include:
 
-- [GSC Ngrams](/gsc-ngrams/)
-
+- [Index Monitoring](/tools/squeryltools/indexmonitoring.html)
+- [Ngrams](/tools/squeryltools/ngrams.html)
+- [Impact Report](/tools/squeryltools/impactreport.html)
+- [GMB Insights](/tools/squeryltools/gmbinsights.html)
+- [Regular Reporting](/tools/squeryltools/regularreporting.html)
 
 ## Intergrations
 

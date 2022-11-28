@@ -5,6 +5,7 @@ permalink: tools/gmbinsights/index.html
 eleventyNavigation:
   key: gmbinsights
   order: 6
+  parent: tools
   title: Google My Business Insights
 ---
 

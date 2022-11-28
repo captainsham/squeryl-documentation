@@ -1,3 +1,4 @@
+---
 title: Channel Configuration
 date: Last Modified 
 permalink: squeryl_setup/setup/channelConfig.html
