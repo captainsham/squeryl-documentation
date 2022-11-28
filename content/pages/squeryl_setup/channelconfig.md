@@ -12,7 +12,7 @@ You can configure different options in Squeryl by saying @ Squeryl config and fo
 
 This will bring up a conversational interface where you can configure a couple of different options.
 
-![Squeryl Config](/images/config.png)
+![Squeryl Config](/content/images/config.png)
 
 
 Let’s go through what each of these commands do:
