@@ -8,8 +8,6 @@ eleventyNavigation:
   title: Welcome To Squeryl
 ---
 
-# Welcome To Squeryl
-
 Squeryl is a Slackbot for SEOs. It's designed to help you get the most out of your SEO tools, and to help you get the most out of your data and help point you to problems-- and solutions.
 
 ## Getting Started
