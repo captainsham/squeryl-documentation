@@ -5,7 +5,7 @@ permalink: tools/squeryltools/index.html
 eleventyNavigation:
   key: tools 
   parent: tools
-  order: 1
+  order: 7
   title: Squeryl Tools
 ---
 
