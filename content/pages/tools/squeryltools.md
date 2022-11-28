@@ -4,6 +4,7 @@ date: Last Modified
 permalink: tools/squeryltools/index.html
 eleventyNavigation:
   key: tools 
+  parent: tools
   order: 1
   title: Squeryl Tools
 ---
